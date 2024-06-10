@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/overflow.css">
     <title>AmeOS</title>
 </head>
 <body>
     <div class="header">
         <img src="assets/logos/favicon.png">
-        <p class="ameos">AmeOS</p>
-        <p class="panamint">Panamint</p>
+        <p class="ameos" id="scrollameos">AmeOS</p>
+        <p class="panamintheader" id="scrollpanamint">Panamint</p>
         <p class="downloads">Downloads</p>
         <p class="contact">Contact us</p>
     </div>
+
+    <!--ame12OS-->
 
     <section class="landingpage">
         <div class="introducing">
@@ -38,6 +41,78 @@
     <section class="download">
         <h1>Install AmeOS for Figma anywhere.</h1>
         <p>You can try AmeOS everywhere* - a phone, PC or even a fridge. <br>Completely for free.</p>
+        <empty></empty>
+        <button>Try Ame12OS</button>
+        <p class="subtext">Older versions of AmeOS</p>
+        <p class="startext">*if your device is powerful enough for Figma</p>
+    </section>
+
+    <!--panamint-->
+    <section class="panamintbg">
+
+    <section class="panamint">
+        <img src="assets/panamint/logo.png" class="logo">
+        <h1>Fast, and powerful.</h1>
+        <p>AmeOS Panamint can run on just about any x64 machine, and make <br>your PC faster than your old OS, forever.</p>
+        <img src="assets/panamint/Laptop.png" class="image">
+    </section>
+
+    <section class="panamint2">
+        <h1>The beauty of Panamint and it’s power</h1>
+        <p>These are our graphs of Windows 11, macOS 14 and Panamint on <br>the same hardware</p>
+        <img src="assets/panamint/graph.png" class="image">
+    </section>
+
+    <section class="panamint3">
+        <h1>Panamint brings many features</h1>
+        <p>I think it’s too many</p>
+
+        <div class="row">
+            <div class="card">
+                <h2>Navigation</h2>
+                <p>Floating dock on the next level.<br><br>
+                </p>
+                <img src="assets/panamint/navigation.png">
+            </div>
+            <div class="card">
+                <h2>App Store + Wine preinstalled</h2>
+                <p>Download any app globally, even if it’s Windows based<br>(No installer in sight)</p>
+                <img src="assets/panamint/appstore.png">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="card">
+                <h2>Customisation</h2>
+                <p>Choose any icons, themes or font that you like!</p>
+                <img src="assets/panamint/customisation.png">
+            </div>
+            <div class="card">
+                <h2>Dynamic Lock Screen</h2>
+                <p>HyperOS based Lock screen, on Linux</p>
+                <img src="assets/panamint/lockscreen.png">
+            </div>
+        </div>
+    </section>
+
+    <section class="downloadpanamint" id="targetdiv">
+        <h1>Trust me, it’s always worth trying</h1>
+        <p>AmeOS panamint with brand new look and feel bringing <br>unique features</p>
+        <empty></empty>
+        <button>Download panamint</button>
+    </section>
+
     </section>
 </body>
+
+<script>
+    document.getElementById("scrollpanamint").addEventListener("click", function() {
+        document.querySelector(".panamint").scrollIntoView({ behavior: 'smooth' });
+    });
+
+    document.getElementById("scrollameos").addEventListener("click", function() {
+        document.querySelector(".landingpage").scrollIntoView({ behavior: 'smooth' });
+    });
+</script>
+
 </html>

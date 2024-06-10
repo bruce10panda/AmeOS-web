@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 
-body {
+html, body {
+    width: 100%;
+    height: 100%;
     padding: 0;
     margin: 0;
     font-family: 'inter', Arial, Helvetica, sans-serif;
-    overflow-x: hidden;
 }
 
 .header {
@@ -34,6 +35,7 @@ body {
 
 .header p {
     font-size: 20px;
+    cursor: pointer;
 }
 
 .header .contact {
@@ -46,6 +48,8 @@ body {
     background-color: #F3F3F5;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .landingpage .introducing {
@@ -71,8 +75,7 @@ body {
 }
 
 .landingpage .image {
-    position: absolute;
-    bottom: 0;
+    margin-top: auto;
     height: 70vh;
 }
 
@@ -140,7 +143,7 @@ body {
 }
 
 .download {
-    height: 100vh;
+    height: 80vh;
     width: 100vw;
     background-color: #ffffff;
     display: flex;
@@ -158,5 +161,163 @@ body {
 .download p {
     color: rgba(0, 0, 0, 0.49);
     font-size: 20px;
+}
+
+.download button {
+    background-color: #FF774C;
+    border: none;
+    border-radius: 90px;
+    width: 200px;
+    height: 62px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.download .subtext {
+    color: #FF774C;
+}
+
+.download .startext {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+empty {
+    margin: 80px;
+}
+
+/*panamint*/
+
+.panamintbg {
+    background: rgb(0,3,15);
+    background: linear-gradient(0deg, rgba(0,3,15,1) 0%, rgba(26,26,26,1) 100%);
+}
+
+.panamint {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.panamint .logo {
+    width: 200px;
+    height: auto;
+}
+
+.panamint h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+
+.panamint p {
+    color: rgba(255, 255, 255, 0.49);
+    font-size: 20px;
     margin-top: -20px;
+}
+
+.panamint .image {
+    height: 50vh;
+    width: auto;
+}
+
+.panamint2 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.panamint2 h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+
+.panamint2 p {
+    color: rgba(255, 255, 255, 0.49);
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+.panamint2 .image {
+    height: 50vh;
+    width: auto;
+}
+
+.panamint3 {
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.panamint3 h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+
+.panamint3 h2 {
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+}
+
+.panamint3 p {
+    color: rgba(255, 255, 255, 0.49);
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+.panamint3 .card {
+    text-align: left;
+    padding: 25px;
+}
+
+.panamint3 .card img {
+    width: 25vw;
+}
+
+.panamint3 .row {
+    display: flex;
+}
+
+.downloadpanamint {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.downloadpanamint h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.downloadpanamint p {
+    color: rgba(255, 255, 255, 0.49);
+    font-size: 20px;
+}
+
+.downloadpanamint button {
+    background-color: #000000;
+    border: solid rgba(255, 255, 255, 0.2) 2px;
+    border-radius: 90px;
+    width: 300px;
+    height: 62px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
 }
