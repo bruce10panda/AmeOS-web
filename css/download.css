@@ -10,8 +10,8 @@ html, body {
 }
 
 .header {
-    max-width: 40vw;
-    width: 40vw;
+    max-width: 34vw;
+    width: 34vw;
     height: 8vh;
     background-color: rgba(33, 36, 44, 0.8);
     border: solid rgba(255, 255, 255, 0.2) 2px;
@@ -66,7 +66,6 @@ html, body {
 .landingpage h1 {
     font-weight: 700;
     font-size: 40px;
-    max-width: 90vw;
 }
 
 .landingpage span {
@@ -94,7 +93,6 @@ html, body {
 .landingpage2 h1 {
     font-size: 40px;
     font-weight: 600;
-    max-width: 90vw;
 }
 
 .landingpage2 span {
@@ -109,7 +107,6 @@ html, body {
     color: rgba(0, 0, 0, 0.49);
     font-size: 20px;
     margin-top: -20px;
-    max-width: 90vw;
 }
 
 .landingpage2 img {
@@ -131,14 +128,13 @@ html, body {
 .landingpage3 h1 {
     font-size: 40px;
     font-weight: 600;
-    max-width: 90vw;
 }
 
 .landingpage3 p {
     color: rgba(0, 0, 0, 0.49);
     font-size: 20px;
     margin-top: -20px;
-    max-width: 90vw;
+    max-width: 600px;
 }
 
 .landingpage3 img {
@@ -160,13 +156,11 @@ html, body {
 .download h1 {
     font-size: 40px;
     font-weight: 600;
-    max-width: 90vw;
 }
 
 .download p {
     color: rgba(0, 0, 0, 0.49);
     font-size: 20px;
-    max-width: 90vw;
 }
 
 .download button {
@@ -217,14 +211,12 @@ empty {
     font-weight: 700;
     font-size: 40px;
     color: white;
-    max-width: 90vw;
 }
 
 .panamint p {
     color: rgba(255, 255, 255, 0.49);
     font-size: 20px;
     margin-top: -20px;
-    max-width: 90vw;
 }
 
 .panamint .image {
@@ -245,14 +237,12 @@ empty {
     font-weight: 700;
     font-size: 40px;
     color: white;
-    max-width: 90vw;
 }
 
 .panamint2 p {
     color: rgba(255, 255, 255, 0.49);
     font-size: 20px;
     margin-top: -20px;
-    max-width: 90vw;
 }
 
 .panamint2 .image {
@@ -273,21 +263,18 @@ empty {
     font-weight: 700;
     font-size: 40px;
     color: white;
-    max-width: 90vw;
 }
 
 .panamint3 h2 {
     font-weight: 700;
     font-size: 30px;
     color: white;
-    max-width: 90vw;
 }
 
 .panamint3 p {
     color: rgba(255, 255, 255, 0.49);
     font-size: 20px;
     margin-top: -20px;
-    max-width: 90vw;
 }
 
 .panamint3 .card {
@@ -299,13 +286,8 @@ empty {
     width: 25vw;
 }
 
-.panamint3 .card p {
-    max-width: 25vw;
-}
-
 .panamint3 .row {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .downloadpanamint {
@@ -322,13 +304,11 @@ empty {
     font-size: 40px;
     font-weight: 600;
     color: #ffffff;
-    max-width: 90vw;
 }
 
 .downloadpanamint p {
     color: rgba(255, 255, 255, 0.49);
     font-size: 20px;
-    max-width: 90vw;
 }
 
 .downloadpanamint button {
@@ -391,75 +371,4 @@ empty {
     position: absolute;
     bottom: 0px;
 }
-
-.m {
-    display: none;
-}
 /*v1.1*/
-
-@media (max-width: 1250px) {
-    .header {
-        width: 60vw;
-        max-width: 60vw;
-    }
-
-    .panamint3 .card img {
-        width: 40vw;
-    }
-
-    .panamint3 .card p {
-        max-width: 40vw;
-    }
-  }
-
-@media (max-width: 768px) {
-    .header {
-        display: none;
-    }
-
-    h1, span {
-        font-size: 25px !important;
-    }
-
-    p {
-        font-size: 15px !important;
-    }
-
-    .landingpage2 img {
-        width: 90vw;
-    }
-
-    .landingpage3 img {
-        width: 50vw;
-    }
-
-    .m {
-        display: block;
-    }
-
-    .d {
-        display: none;
-    }
-
-    .panamint .image {
-        width: 90vw;
-        height: auto;
-    }
-
-    .panamint2 .image {
-        width: 90vw;
-        height: auto;
-    }
-
-    .panamint3 {
-        height: 180vh;
-    }
-
-    .panamint3 .card img {
-        width: 80vw;
-    }
-
-    .panamint3 .card p {
-        max-width: 80vw;
-    }
-  }

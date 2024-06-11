@@ -29,13 +29,15 @@
     <section class="landingpage2">
         <h1>The no-brainer operating system design.<br><span>Designed </span> from the ground up</h1>
         <p>Recreate, re-do, reuse for your own Figma project. <br>AmeOS lets you do all that — and even more.</p>
-        <img src="assets/ame12OS/screenshots.png">
+        <img src="assets/ame12OS/screenshots.png" class="d">
+        <img src="assets/ame12OS/screenshots-m.png" class="m">
     </section>
 
     <section class="landingpage3">
         <h1>A more intelligent Lock screen</h1>
         <p>Use Custom lock screen album cover to make your lockscreen more personal to you - in Figma</p>
-        <img src="assets/ame12OS/lockscreens.png">
+        <img src="assets/ame12OS/lockscreens.png" class="d">
+        <img src="assets/ame12OS/lockscreens-m.png" class="m">
     </section>
 
     <section class="download">
@@ -76,7 +78,7 @@
             </div>
             <div class="card">
                 <h2>App Store + Wine preinstalled</h2>
-                <p>Download any app globally, even if it’s Windows based<br>(No installer in sight)</p>
+                <p>Download any app globally, even if it’s Windows based (No installer in sight)</p>
                 <img src="assets/panamint/appstore.png">
             </div>
         </div>
@@ -100,27 +102,45 @@
         <p>AmeOS panamint with brand new look and feel bringing <br>unique features</p>
         <empty></empty>
         <button>Download panamint</button>
+        <empty>
+        <div class="requirements">
+            <h1>Requirements:</h1>
+            <p>2GB+ of RAM<br>
+                At least 4GB of Internal Storage<br>
+                2 GHz dual core processor<br>
+                Over 45GB+ of Disk space for the OS<br>
+                HDMI, VGA and DisplayPort capable<br>
+                x64 based CPU</p>
+        </div>
     </section>
 
     </section>
 
-    <section>
-        <button>
-            Try Ame12OS
-        </button>
+    <section class="footer">
+        <h1>Check out our other projects</h1>
+        <div class="container">
+        <div class="row1">
+            <p id="scrollameos">AmeOS for Figma</p>
+            <p>AmeOS for Android</p>
+            <p id="scrollpanamint">AmeOS panamint</p>
+            <p>ameos+</p>
+        </div>
+        <div class="row2">
+            <p>AmeOS ORIGINALS</p>
+            <p>Contact us</p>
+            <p>Download page</p>
+            <p>Credits</p>
+        </div>
+        <Div>
+            <p>Our team:</p>
+            <img src="assets/other/team.png">
+        </Div>
+        </div>
+        <p class="copyright">© 2024 AmeOS. All rights reserved.</p>
     </section>
+
 </body>
-
-<script>
-    document.getElementById("scrollpanamint").addEventListener("click", function() {
-        document.querySelector(".panamint").scrollIntoView({ behavior: 'smooth' });
-    });
-
-    document.getElementById("scrollameos").addEventListener("click", function() {
-        document.querySelector(".landingpage").scrollIntoView({ behavior: 'smooth' });
-    });
-</script>
-
+<script src="redirects.js"></script>
 </html>
 
 <!--v1.1-->
