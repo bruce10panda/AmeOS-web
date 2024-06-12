@@ -47,7 +47,6 @@ html, body {
     width: 100vw;
     background-color: #F3F3F5;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
@@ -76,8 +75,9 @@ html, body {
 }
 
 .landingpage .image {
-    margin-top: auto;
-    height: 70vh;
+    position: absolute;
+    bottom: 0;
+    max-height: 60vh;
 }
 
 .landingpage2 {
@@ -189,7 +189,7 @@ html, body {
 }
 
 empty {
-    margin: 80px;
+    margin: 5vh;
 }
 
 /*panamint*/
@@ -410,6 +410,8 @@ empty {
     .panamint3 .card p {
         max-width: 40vw;
     }
+
+    
   }
 
 @media (max-width: 768px) {
