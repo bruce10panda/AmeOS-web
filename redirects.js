@@ -11,3 +11,9 @@ document.querySelectorAll("#scrollameos").forEach(function(element) {
         document.querySelector(".landingpage").scrollIntoView({ behavior: 'smooth' });
     });
 });
+
+//go to ame12OS in figma
+function ame12OS() {
+    console.log('hello world')
+    window.open('https://bit.ly/Ame12OS-direct');
+}
