@@ -7,9 +7,13 @@
     <link rel="stylesheet" href="css/overflow.css">
     <title>AmeOS</title>
     <link rel="icon" type="image/x-icon" href="/assets/logos/favicon.png">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 <body>
-    <div class="header">
+    <div class="header animate__animated animate__fadeInDown">
         <img src="assets/logos/favicon.png">
         <p class="ameos" id="scrollameos">AmeOS</p>
         <p class="panamintheader" id="scrollpanamint">Panamint</p>
@@ -20,25 +24,25 @@
     <!--ame12OS-->
 
     <section class="landingpage">
-        <div class="introducing">
+        <div class="introducing animate__animated animate__fadeIn">
             <img src="assets/ame12OS/logo.png" class="logo">
             <h1>Your project, <span>unleashed.</span></h1>
         </div>
-        <img src="assets/ame12OS/landing.png" class="image">
+        <img src="assets/ame12OS/landing.png" class="image animate__animated animate__fadeIn">
     </section>
 
     <section class="landingpage2">
         <h1>The no-brainer operating system design.<br><span>Designed </span> from the ground up</h1>
         <p>Recreate, re-do, reuse for your own Figma project. <br>AmeOS lets you do all that — and even more.</p>
-        <img src="assets/ame12OS/screenshots.png" class="d">
-        <img src="assets/ame12OS/screenshots-m.png" class="m">
+        <img src="assets/ame12OS/screenshots.png" class="landing2 d animate__animated hidden-image">
+        <img src="assets/ame12OS/screenshots-m.png" class="landing2 m animate__animated hidden-image">
     </section>
 
     <section class="landingpage3">
         <h1>A more intelligent Lock screen</h1>
         <p>Use Custom lock screen album cover to make your lockscreen more personal to you - in Figma</p>
-        <img src="assets/ame12OS/lockscreens.png" class="d">
-        <img src="assets/ame12OS/lockscreens-m.png" class="m">
+        <img src="assets/ame12OS/lockscreens.png" class="d landing3 animate__animated hidden-image">
+        <img src="assets/ame12OS/lockscreens-m.png" class="m landing3 animate__animated hidden-image">
     </section>
 
     <section class="download">
@@ -57,7 +61,7 @@
         <img src="assets/panamint/logo.png" class="logo">
         <h1>Fast, and powerful.</h1>
         <p>AmeOS Panamint can run on just about any x64 machine, and make <br>your PC faster than your old OS, forever.</p>
-        <img src="assets/panamint/Laptop.png" class="image">
+        <img src="assets/panamint/Laptop.png" class="image panaminta animate__animated hidden-image">
     </section>
 
     <section class="panamint2">
@@ -70,7 +74,7 @@
         <h1>Panamint brings many features</h1>
         <p>I think it’s too many</p>
 
-        <div class="row">
+        <div class="row card animate__animated hidden-image">
             <div class="card">
                 <h2>Navigation</h2>
                 <p>Floating dock on the next level.<br><br>
@@ -84,7 +88,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row card2 animate__animated hidden-image">
             <div class="card">
                 <h2>Customisation</h2>
                 <p>Choose any icons, themes or font that you like!</p>
@@ -142,6 +146,7 @@
 
 </body>
 <script src="redirects.js"></script>
+<script src="animations.js"></script>
 </html>
 
 <!--v1.1-->

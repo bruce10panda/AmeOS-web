@@ -16,8 +16,8 @@ html, body {
     background-color: rgba(33, 36, 44, 0.8);
     border: solid rgba(255, 255, 255, 0.2) 2px;
     position: fixed;
-    left: 50%;
-    transform: translate(-50%, 0);
+    left: 30vw;
+    right: 30vw;
     margin-top: 20px;
     border-radius: 90px;
     display: flex;
@@ -401,6 +401,8 @@ empty {
     .header {
         width: 60vw;
         max-width: 60vw;
+        left: 20vw;
+        right: 20vw;
     }
 
     .panamint3 .card img {
@@ -465,3 +467,11 @@ empty {
         max-width: 80vw;
     }
   }
+
+  .animate__animated.animate__fadeIn {
+    --animate-duration: 2s;
+  }
+
+.hidden-image {
+    opacity: 0;
+}
